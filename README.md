@@ -6,7 +6,7 @@ The following gems are in use:
 * gem 'rspec'
 * gem 'mail'
 
-# You play the game as follows
+## You play the game as follows
 
 * Go to your terminal and type in irb
 * Load the file : load './lib/fizz_buzz'
@@ -29,4 +29,4 @@ $ irb
 2.2.0 :004 > output
 => #it will return your code here listing 1..100 with fizz_buzz
 ```
-*You will also note that when you enter a value that is not a number or is a negative number you will receive a different output
+*You will also note that when you enter a value that is not a number or is a negative number you will receive a different output*
