@@ -3,16 +3,17 @@ def fizz_buzz(number)
     'this is not a number'
   elsif  number < 0
     'be a little more positive'
-  elsif  has_zero_remainder?(number, 15)
+  elsif  zero_remainder?(number, 15)
     'fizzbuzz'
-  elsif has_zero_remainder?(number, 5)
+  elsif zero_remainder?(number, 5)
     'buzz'
-  elsif has_zero_remainder?(number, 3)
+  elsif zero_remainder?(number, 3)
     'fizz'
   else
     number
   end
 end
-def has_zero_remainder?(number, divider)
+
+def zero_remainder?(number, divider)
   number % divider == 0
 end
