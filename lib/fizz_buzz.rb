@@ -1,5 +1,3 @@
-
-
 def fizz_buzz(number)
   if number == number.to_s
     'this is not a number'
